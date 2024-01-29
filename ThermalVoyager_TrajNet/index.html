@@ -1,0 +1,393 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <!-- ======================================================================= -->
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+      body {
+      font-family: "Titillium Web","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+      font-weight:300;
+      font-size:18px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 1100px;
+      }
+      h1 {
+      font-weight:300;
+      }
+      .disclaimerbox {
+      background-color: #eee;
+      border: 1px solid #eeeeee;
+      border-radius: 10px ;
+      -moz-border-radius: 10px ;
+      -webkit-border-radius: 10px ;
+      padding: 20px;
+      }
+      video.header-vid {
+      height: 140px;
+      border: 1px solid black;
+      border-radius: 10px ;
+      -moz-border-radius: 10px ;
+      -webkit-border-radius: 10px ;
+      }
+      img.header-img {
+      height: 140px;
+      border: 1px solid black;
+      border-radius: 10px ;
+      -moz-border-radius: 10px ;
+      -webkit-border-radius: 10px ;
+      }
+      img.rounded {
+      border: 1px solid #eeeeee;
+      border-radius: 10px ;
+      -moz-border-radius: 10px ;
+      -webkit-border-radius: 10px ;
+      }
+      a:link,a:visited
+      {
+      color: #1367a7;
+      text-decoration: none;
+      }
+      a:hover {
+      color: #208799;
+      }
+      td.dl-link {
+      height: 160px;
+      text-align: center;
+      font-size: 22px;
+      }
+      .layered-paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+      box-shadow:
+      0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+      5px 5px 0 0px #fff, /* The second layer */
+      5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+      10px 10px 0 0px #fff, /* The third layer */
+      10px 10px 1px 1px rgba(0,0,0,0.35), /* The third layer shadow */
+      15px 15px 0 0px #fff, /* The fourth layer */
+      15px 15px 1px 1px rgba(0,0,0,0.35), /* The fourth layer shadow */
+      20px 20px 0 0px #fff, /* The fifth layer */
+      20px 20px 1px 1px rgba(0,0,0,0.35), /* The fifth layer shadow */
+      25px 25px 0 0px #fff, /* The fifth layer */
+      25px 25px 1px 1px rgba(0,0,0,0.35); /* The fifth layer shadow */
+      margin-left: 10px;
+      margin-right: 45px;
+      }
+      .layered-paper { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+      box-shadow:
+      0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+      5px 5px 0 0px #fff, /* The second layer */
+      5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+      10px 10px 0 0px #fff, /* The third layer */
+      10px 10px 1px 1px rgba(0,0,0,0.35); /* The third layer shadow */
+      margin-top: 5px;
+      margin-left: 10px;
+      margin-right: 30px;
+      margin-bottom: 5px;
+      }
+      .vert-cent {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      }
+      hr
+      {
+      border: 0;
+      height: 1px;
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+      }
+      #authors td {
+      padding-bottom:5px;
+      padding-top:30px;
+      }
+    </style>
+    <!-- ======================================================================= -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      
+      gtag('config', 'UA-114291442-5');
+    </script>
+    <script type="text/javascript" src="./index_files/hidebib.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TrajNet</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body class="vsc-initialized">
+    <br>
+    <center><span style="font-size:44px;font-weight:bold;">Thermal Voyager: A Comparative Study of RGB and Thermal Cameras for Night-Time Autonomous Navigation</span></center>
+    <br>
+    <table align="center" width="710px">
+      <tbody>
+        <tr>
+          <td align="center" width="230px">
+            <center><span style="font-size:22px"><a href="https://www.linkedin.com/in/adityang/" target="_blank">Aditya N G</a></span></center>
+          </td>
+          <td align="center" width="230px">
+            <center><span style="font-size:22px"><a href="https://in.linkedin.com/in/dhruvalpb" target="_blank">Dhruval P B</a></span></center>
+          </td>
+          <td align="center" width="230px">
+            <center><span style="font-size:22px"><a href="https://www.linkedin.com/in/jehan-shalabi-2001" target="_blank">Jehan Shalabi</a></span></center>
+          </td>
+          <td align="center" width="230px">
+            <center><span style="font-size:22px"><a href="https://www.linkedin.com/in/shubhankar-jape-028603219/" target="_blank">Shubhankar Jape</a></span></center>
+          </td>
+          <td align="center" width="230px">
+            <center><span style="font-size:22px"><a href="https://staff.pes.edu/nm1306/" target="_blank">Xueji Wang</a></span></center>
+          </td>
+          <td align="center" width="230px">
+            <center><span style="font-size:22px"><a href="https://staff.pes.edu/nm1306/" target="_blank">Zubin Jacob</a></span></center>
+          </td>
+        </tr>
+
+        <tr>
+          <td align="center" width="230px">
+            <center><span style="font-size:11px"><a href="https://www.linkedin.com/in/adityang/" target="_blank">adityang5@gmail.com</a></span></center>
+          </td>
+          <td align="center" width="230px">
+            <center><span style="font-size:11px"><a href="https://in.linkedin.com/in/dhruvalpb" target="_blank">dhruvalpb@gmail.com</a></span></center>
+          </td>
+          <td align="center" width="230px">
+            <center><span style="font-size:11px"><a href="https://www.linkedin.com/in/jehan-shalabi-2001" target="_blank">shalabi@purdue.edu</a></span></center>
+          </td>
+          <td align="center" width="230px">
+            <center><span style="font-size:11px"><a href="https://www.linkedin.com/in/shubhankar-jape-028603219/" target="_blank">sjape@purdue.edu</a></span></center>
+          </td>
+          <td align="center" width="230px">
+            <center><span style="font-size:11px"><a href="https://www.linkedin.com/in/xueji-wang/" target="_blank">wang4008@purdue.edu</a></span></center>
+          </td>
+          <td align="center" width="230px">
+            <center><span style="font-size:11px"><a href="https://www.linkedin.com/in/zubin-jacob-21619517/" target="_blank">zjacob@purdue.edu</a></span></center>
+          </td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+        </tr>
+      </tbody>
+    </table>
+    <table align="center" width="700px">
+      <tbody>
+        <tr>
+          <td align="center" width="700px">
+            <center><span style="font-size:22px">Published at <a href="https://2024.ieee-icra.org/">ICRA 2024</a> </span></center>
+          </td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <table align="center" width="700px">
+      <tbody>
+        <tr>
+          <td align="center" width="100px">
+            <center><span style="font-size:28px"><a href="TODOf">[Paper]</a></span></center>
+          </td>
+          <td align="center" width="100px">
+            <center><span style="font-size:28px"><a href="https://www.youtube.com/watch?v=A329OZmrf8Y&ab_channel=AdityaNG">[Slides]</a></span></center>
+          </td>
+          <td align="center" width="100px">
+            <center><span style="font-size:28px"><a href="https://github.com/AdityaNG/TrajNet">[Code]</a></span></center>
+          </td>
+        </tr>
+        <tr>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <table align="center" width="300px">
+      <tbody>
+        <tr>
+          <!-- <td align="center" width="300px">
+            <center><a href="./index_files/demo.gif"><img src="./index_files/demo.gif" height="450px"></a><br></center>
+          </td> -->
+          <td align="center" width="300px">
+            <!-- <iframe width="768" height="480" src="https://www.youtube.com/embed/e7BNml4j3NI" title="TrajNet Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+            <iframe src="https://www.youtube.com/embed/e7BNml4j3NI?rel=0&amp;autoplay=1&mute=1&start=14" title="TrajNet Demo" width="768" height="480" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <div style="width:800px; margin:0 auto; text-align:justify">
+      Achieving reliable autonomous navigation during
+nighttime remains a substantial obstacle in the ﬁeld of robotics.
+Although systems utilizing Light Detection and Ranging (LiDAR) and Radio Detection and Ranging (RADAR) enables
+environmental perception regardless of lighting conditions, they
+face signiﬁcant challenges in environments with a high density
+of agents due to their dependence on active emissions. Cameras
+operating in the visible spectrum represent a quasi-passive
+alternative, yet they see a substantial drop in efﬁciency in low-light conditions, consequently hindering both scene perception
+and path planning. Here, we introduce a novel end-to-end
+navigation system, the ”Thermal Voyager”, which leverages
+infrared thermal vision to achieve true passive perception in
+autonomous entities. The system utilizes TrajNet to interpret
+thermal visual inputs to produce desired trajectories and
+employs a model predictive control strategy to determine the
+optimal steering angles needed to actualize those trajectories.
+We train the TrajNet utilizing a comprehensive video dataset
+incorporating visible and thermal footages alongside Controller
+Area Network (CAN) frames. We demonstrate that nighttime
+navigation facilitated by Long-Wave Infrared (LWIR) thermal
+cameras can rival the performance of daytime navigation
+systems using RGB cameras. Our work paves the way for scene
+perception and trajectory prediction empowered entirely by
+passive thermal sensing technology, heralding a new era where
+autonomous navigation is both feasible and reliable irrespective
+of the time of day. We make our code and thermal trajectory
+dataset public.
+    </div>
+    <br>
+    <hr>
+    <center>
+      <h1>Video Presentation</h1>
+    </center>
+    <table align="center" width="300px">
+      <tbody>
+        <tr>
+          <td align="center" width="300px">
+            <iframe width="768" height="480" src="https://www.youtube.com/embed/A329OZmrf8Y" title="TrajNet Presentation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <hr>
+    <!-- <center>
+      <h1>Short Demonstration</h1>
+    </center>
+    <table align="center" width="300px">
+      <tbody>
+        <tr>
+          <td align="center" width="300px">
+            <iframe width="768" height="480" src="https://www.youtube.com/embed/SmtqhvKftzg" title="TrajNet Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <hr> -->
+    <center>
+      <h1>Our Architecture</h1>
+    </center>
+    <div style="width:800px; margin:0 auto; text-align:justify">Thermal/RGB image frames are fed into TrajN et which outputs a trajectory. The
+      Model Predictive Controller translated the trajectory to an optimal control sequence of actuator values. Low-level systems
+      command the actuators to then execute the desired trajectory</div>
+    <br>
+    <p style="margin-top:4px;"></p>
+    <table align="center" width="1000px">
+      <tbody>
+        <tr>
+          <td width="1200px">
+            <center><a href="./index_files/arch.png"><img src="./index_files/arch.png" width="800px"></a><br></center>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <hr>
+    <center id="sourceCode">
+      <h1>Source Code</h1>
+    </center>
+    <div style="width:800px; margin:0 auto; text-align=center">
+      We have released the PyTorch implementation of TrajNet on GitHub. Try our code!
+    </div>
+    <table align="center" width="900px">
+      <tbody>
+        <tr>
+          <td width="300px" align="center">
+            <span style="font-size:28px"><a href="https://github.com/AdityaNG/TrajNet">[GitHub]</a></span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <hr>
+    <center>
+      <h1>Paper and Bibtex</h1>
+    </center>
+    <table align="center" width="850px">
+      <tbody>
+        <tr>
+          <td width="200px" align="left">
+            <a href="https://github.com/AdityaNG/TrajNet"><img style="width:400px" src="./index_files/paper_TrajNet.png"></a>
+            <center>
+              <span style="font-size:20pt">
+                <a href="https://github.com/AdityaNG/TrajNet">[Paper]</a>
+              </span>
+            </center>
+          </td>
+          <td width="50px" align="center">
+          </td>
+          <td width="550px" align="left">
+            <p style="text-align:left;"><b><span style="font-size:20pt">Citation</span></b><br><span style="font-size:6px;">&nbsp;<br></span> <span style="font-size:15pt">Ganesh, A. N., PB, D., Shalabi, J., Jape, S., Wang, X., & Jacob, Z. (2024). Thermal Voyager: A Comparative Study of RGB and Thermal Cameras for Night-Time Autonomous Navigation. In Proceedings of the 2024 IEEE International Conference on Robotics and Automation (ICRA).
+            </span></p>
+            <span style="font-size:20pt"><a shape="rect" href="javascript:togglebib(&#39;assemblies19_bib&#39;)" class="togglebib">[Bibtex]</a></span>
+            <div class="paper" id="assemblies19_bib">
+              <pre xml:space="preserve" style="display: none;">@inproceedings{ganesh2024thermal,
+  title={Thermal Voyager: A Comparative Study of RGB and Thermal Cameras for Night-Time Autonomous Navigation},
+  author={Ganesh, Aditya Nalgunda and PB, Dhruval and Shalabi, Jehan and Jape, Shubhankar and Wang, Xueji and Jacob, Zubin},
+  booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)},
+  year={2024}
+}
+                </pre>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td width="250px" align="left">
+          </td>
+          <td width="50px" align="center">
+          </td>
+          <td width="550px" align="left">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <hr>
+    <center>
+      <h1>Related Projects</h1>
+    </center>
+    <table align="center" width="900px">
+      <tbody>
+        <tr>
+          <td align="center" width="300px">
+            <a href="https://www.linkedin.com/posts/adityang_cvpr2023-bengaluru-transformersforvision-activity-7076240486130208768-IKbN?utm_source=share&amp;utm_medium=member_desktop">OCTraN</a>
+            <center><a href="https://www.linkedin.com/posts/adityang_cvpr2023-bengaluru-transformersforvision-activity-7076240486130208768-IKbN?utm_source=share&amp;utm_medium=member_desktop"><img src="./index_files/paper_OCTraN.png" height="600px"></a><br></center>
+          </td>
+          <td align="center" width="300px">
+            <a href="https://www.linkedin.com/posts/adityang_low-cost-hardware-accelerated-vision-based-activity-7067379026075537408-XbFj?utm_source=share&amp;utm_medium=member_desktop">Hardware Accelerated Stereo Vision</a>
+            <center><a href="https://www.linkedin.com/posts/adityang_low-cost-hardware-accelerated-vision-based-activity-7067379026075537408-XbFj?utm_source=share&amp;utm_medium=member_desktop"><img src="./index_files/paper_stereo.png" height="600px"></a><br></center>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <hr>
+    <table align="center" width="800px">
+      <tbody>
+        <tr>
+          <td width="800px">
+            <left>
+              <center>
+                <h1>Say Hi!</h1>
+              </center>
+              Contact me at <a href="mailto:adityang5@gmail.com">adityang5@gmail.com</a>
+              <br>
+            </left>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br><br>
+    <script xml:space="preserve" language="JavaScript">
+      hideallbibs();
+    </script>
+  </body>
+</html>
